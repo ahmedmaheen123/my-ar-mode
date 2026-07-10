@@ -11,17 +11,18 @@
 </head>
 <body>
   <model-viewer
-    src="model.glb"
-    ar
-    ar-modes="webxr scene-viewer quick-look"
-    camera-controls
-    auto-rotate
-    shadow-intensity="1"
-    alt="3D model">
-    <button slot="ar-button" style="background-color:white; border-radius:8px; border:none; padding:12px 18px; position:absolute; bottom:24px; right:24px; font-size:16px;">
-      View in AR
-    </button>
-  </model-viewer>
+  src="model.glb"
+  ios-src="model.usdz"
+  ar
+  ar-modes="webxr scene-viewer quick-look"
+  camera-controls
+  auto-rotate
+  shadow-intensity="1"
+  alt="3D model">
+  <button slot="ar-button" style="background-color:white; border-radius:8px; border:none; padding:12px 18px; position:absolute; bottom:24px; right:24px; font-size:16px;">
+    View in AR
+  </button>
+</model-viewer>
 </body>
 </html>
  
